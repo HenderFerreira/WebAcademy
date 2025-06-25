@@ -7,12 +7,92 @@
   </head>
 
   <body>
+    <h1> Formulário de Contato</h1>
 
+    <p> Por favor, preencha o formulário abaixo e clique no botão Enviar mensagem. Agradecemos por seu contato.</p>
    
+    <form action="">
+      <fieldset>
 
-    
-    
+         <legend>Dados Básicos</legend>
+      
+         Nome: <input type="text"><br/>
+         Email: <input type="text"><br/>
+         Website: <input type="text">
 
+      </fieldset>
+
+      <fieldset>
+
+         <legend>Seu curso no Icomp</legend>
+      
+         <input type="radio"> Ciência da Computação<br/>
+         <input type="radio">Sistemas de informação<br/>
+         <input type="radio">Engenharia da Computação
+
+      </fieldset>
+
+      <fieldset>
+
+         <legend>Assinale as linguagens já usadas por você</legend>
+      
+         <input type="checkbox"> Java
+         <input type="checkbox"> C
+         <input type="checkbox"> C++
+         <input type="checkbox"> Perl
+         <input type="checkbox"> Python
+         <input type="checkbox"> JavaScript
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Dados Complementares</legend>
+      
+        Cor favorita: <input type="color"><br/>
+        Data de Nascimento: <input type="date"><br/>
+        Ano de entrada em seu curso: <input type="text"><br/>
+        Nota para este site: <input type="range">
+
+      </fieldset>          
+         
+
+      <fieldset>
+
+        <legend>Área de Atuação</legend>
+      
+        <select>
+          <option value="">Banco de dados</option>
+          <option value="">Inteligência Artificial</option>
+          <option value="">Informática Educacional</option>
+          <option value="">Sistemas Web</option>
+        </select>
+
+      </fieldset> 
+
+      <fieldset>
+            
+         <legend> Submeta seu Curriculum</legend>
+         <input type="file">
+
+      </fieldset> 
+       
+      
+       <fieldset>
+            
+         <legend>Digite sua mensagem</legend>
+         <textarea name="" id="">Este é o valor padrão!!</textarea><br><br>
+
+       </fieldset> 
+
+          
+      <input type="submit" value="Resetar Dados">
+      <input type="submit" value="Enviar mensagem">         
+      
+      
+    </form>
+    
+  
   </body>
 </html>
 
