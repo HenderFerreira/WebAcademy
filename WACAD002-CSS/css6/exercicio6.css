@@ -1,4 +1,5 @@
-/*navbar 1 */
+/*navbar */
+
 .caixa {
     display: flex;
     align-items: center;
@@ -6,12 +7,12 @@
     height: 40px;
     background-color: rgba(0, 0, 0, 0.75);   
     padding: 5px 15px 5px 15px;
-    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
     margin: 16px;
 
 }
 
 .logo {
+    font-style: oblique;
     font-weight: bold;
     color: white;   
     padding-left: 30px;
@@ -22,40 +23,113 @@
     align-items: center;
     gap: 15px;
     color: white;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 20px 5px 0px;
+    font-size: 0.9em;
    
     
 }
 
-.contato{
-    padding-right: 30px;
+/*main */
+
+
+.main{
+
+    display: block;
+    position: relative;
+    right:-20px ;
+    top:0px;
+    width:1120px; 
+    height:800px; 
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0px 15px 15px 15px;
+
 }
 
-.contato button{
+.cards{
     
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 268px;
+    gap: 10px;
+    
+
+
+}
+
+.cards > .card1{
+ 
+   border: 2px solid rgba(0, 0, 0, 0.75);
+    
+}
+
+.cards > .card2{
+   border: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+.cards > .card3{
+   border: 2px solid rgba(0, 0, 0, 0.75);
+    
+}
+
+.cards > .card4{
+   border: 2px solid rgba(0, 0, 0, 0.75);
+    grid-column: 1/2;
+}
+
+.cards > .card5{
+   border: 2px solid rgba(0, 0, 0, 0.75);
+    grid-column: 2/3;
+}
+
+
+.topocard{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    border-radius: 10px;
-    border-width: 0px;
-    background-color: darkcyan;
-    padding: 5px 15px 5px 15px;
-
-  
-}
-/*navbar 2 */
-.logo2 {
-    font-weight: bold;
-    color: white;   
-    padding-right: 30px;
+      
 
 }
 
-.menu2 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+
+.titulocard{
+
+     font-weight: bold;
+     margin-left: 10px;
+     padding-top: 10px;
+    
+
+}
+
+
+
+.textocard{
+
+    padding: 15px 15px 15px 15px;
+    font-size: 0.9em;
+    text-align: justify;
+ 
+
+}
+/*aside */
+.aside{
+
+    display: block;
+    position: relative;
+    right:-1180px ;
+    top:-800px;
+    width:300px; 
+    height:710px; 
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    padding: 5px 0px 5px 30px;
-   
+    padding: 15px 10px 15px 10px;
+    font-size: 0.9em;
+    text-align: justify;
+
 }
 
-/*navbar 3 - para aplicar os efeitos desejados bastou apenas reordenar os elementos no código html */
+
+
+
+
