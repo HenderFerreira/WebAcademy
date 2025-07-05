@@ -1,0 +1,16 @@
+p{
+    font-size: x-large;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+#bloco {
+    background-color: rgb(185, 185, 185);   
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    
+
+    border-radius: 15px 40px;
+
+}

@@ -1,0 +1,36 @@
+h2{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    
+}
+
+body{
+
+    background-image: url(nebulosa.png);
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    margin: 0;
+        
+}
+
+#bloco {
+
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);   
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(230, 148, 41);
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding: 5px 15px 5px 15px;
+
+}
